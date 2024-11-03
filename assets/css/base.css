@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@300;400;500;700&display=swap');
+:root{
+    --color-pink:#FF589E;
+    --color-text:#7B7777;
+    --color-title:#1E1E1E;
+    --color-blue:#8261EE;
+
+}
+body{
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.button{
+    padding: 14px 16px;
+    font-size: 13px;
+    border-radius: 50px;
+    color: #fff;
+}
+.button-pink{
+    background-color: var(--color-pink);
+    
+}
+.button-pink:hover{
+    background-color: var(--color-blue);
+    text-decoration: none;
+    
+}
